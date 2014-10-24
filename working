@@ -24,10 +24,11 @@ L.tileLayer('http://{s}.tiles.mapbox.com/v3/brightl1.jnnpa549/{z}/{x}/{y}.png', 
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
     maxZoom: 18
 }).addTo(map);
-var marker1 = L.marker([42.607564, -83.148907]).addTo(map);
+var marker1 = L.marker([42.607564, -83.148907]).addTo(map)
+.bindPopup("Troy, MI <br><br> Troy Mi is home to Delphi Automotive and the one time Kmart World headquarters <br><br> <a href='http://en.wikipedia.org/wiki/Troy,_Michigan'>Check out the wikipeida</a>")
+    .closePopup();
 var marker2 = L.marker([42.737852, -84.487004]).addTo(map);
 var marker3 = L.marker([32.777180, -79.937862]).addTo(map);
-marker1.bindPopup("<b>Hello I'm Troy Michigan</b><br>").openPopup();
 marker2.bindPopup("<b>Hello I'm East Lasnsing Michigan</b>").openPopup();
 marker3.bindPopup("<b>Hello I'm Charleston South Carolina</b> The most beautiful place on earth! Check out my wikipedia").openPopup();
 </script>
