@@ -29,7 +29,7 @@ var marker1 = L.marker([42.607564, -83.148907]).addTo(map)
     .closePopup();
 var marker2 = L.marker([42.737852, -84.487004]).addTo(map)
 .bindPopup("East Lansing, MI <br><br> East Lansing has one of the largest Universities in the US <br><br> <a href='http://http://en.wikipedia.org/wiki/East_Lansing,_Michigan'>Check out the wikipeida</a>")
-    .closePopup();;
+    .closePopup();
 var marker3 = L.marker([32.777180, -79.937862]).addTo(map);
 marker2.bindPopup("<b>Hello I'm East Lasnsing Michigan</b>").openPopup();
 marker3.bindPopup("<b>Hello I'm Charleston South Carolina</b> The most beautiful place on earth! Check out my wikipedia").openPopup();
